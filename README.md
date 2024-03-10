@@ -1,4 +1,7 @@
-# MyApp
+# MyApp how-to-install--bootstrap-in-angular-17-standalone
+
+How to install bootstrap in angular 17 using app.config.ts in standalone component.
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.5.
 
