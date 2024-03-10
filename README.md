@@ -16,7 +16,9 @@ ng new my-app
 Step 3 : Navigate to the workspace folder, such as my-app,Run the following command:
 
 cd my-app
+
 ng serve --open
+
 
 Step 4 : The --open (or just -o) option automatically opens your browser to http://localhost:4200/.
 
