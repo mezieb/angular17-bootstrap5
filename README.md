@@ -35,6 +35,8 @@ Step 7 : Include the bootstrap-icons in your global styles.css like this.
           @import "bootstrap-icons";
 
 Step 8 ; Include the NgbModule in your app or standalone components like this.
+
+
           import { Component } from '@angular/core';
           import { CommonModule } from '@angular/common';
           import { RouterLink, RouterOutlet } from '@angular/router';
@@ -58,10 +60,9 @@ Step 8 ; Include the NgbModule in your app or standalone components like this.
       }
 
 
-         
-         
-         
-         Congratulations your are done enjoy!!! .
+
+      
+Congratulations your are done enjoy!!! .
 
          
 
