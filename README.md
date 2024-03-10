@@ -35,8 +35,27 @@ Step 7 : Include the bootstrap-icons in your global styles.css like this.
           @import "bootstrap-icons";
 
 Step 8 ; Include the NgbModule in your app or standalone components like this.
+          import { Component } from '@angular/core';
+          import { CommonModule } from '@angular/common';
+          import { RouterLink, RouterOutlet } from '@angular/router';
 
-         import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+          import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
+
+         @Component({
+                      selector: 'app-root',
+                      standalone: true,
+                      imports: [CommonModule,NgbModule,RouterOutlet,RouterLink],
+                      templateUrl: './app.component.html',
+                      styleUrl: './app.component.css'
+                   })
+
+
+       export class AppComponent {
+       title = 'my-app';
+
+
+      }
 
 
          Congratulations your are done enjoy!!! .
