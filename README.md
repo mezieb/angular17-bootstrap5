@@ -1,4 +1,4 @@
-# MyApp how-to-install--bootstrap-in-angular-17-standalone
+#  how-to-install--bootstrap-in-angular-17-standalone
 
 How to install bootstrap in angular 17 using app.config.ts in standalone component.
 
